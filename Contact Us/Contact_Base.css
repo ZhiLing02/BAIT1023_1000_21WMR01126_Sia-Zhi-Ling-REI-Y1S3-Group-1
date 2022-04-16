@@ -1,0 +1,135 @@
+h2{
+  font-size: 50px;
+  color: gray;
+  text-align: center;
+}
+
+h3{
+  font-size:25px;
+  font-style:normal;
+  color:gray;
+  text-align: center;
+}
+
+h5{
+  font-size:25px;
+  font-style:normal;
+  color:gray;
+  display: inline-block;
+  text-align: center;
+  width: 600px;
+  margin-left: 8%;
+}
+
+h6{
+  font-size:15px;
+  font-style:normal;
+  color:rgb(78, 77, 77);
+  text-align: center;
+  text-decoration: underline;
+}
+
+/*Adjust the icon*/
+div.label {
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  width: 400px;
+  margin-left: 5%;
+  position: relative;
+  max-width: 1000px;
+}
+
+/*Adjust the text under icon*/
+.caption {
+  display: block;
+  font-size: 20px;
+  font-style: italic;
+  color:gray;
+}
+
+/*Adjust map size*/
+img[src="map.png"] {
+  display: block;
+   margin-left: auto;
+  margin-right: auto;
+}
+
+/*Text Space*/
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/*Setting Email Format with @*/
+input[type=email]{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+  /*Adjust the form size*/
+  .container {
+    border-radius: 5px;
+    padding-top: 2px;
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+
+  /*For the comment / message box*/
+  textarea{
+    height: 200px;
+  }
+
+  /*Adjust button pattern*/
+  button {
+    background-color: #df9b9b;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  /*Button hover pattern*/
+  button:hover {
+    background-color: #e76d6d;
+  }
+
+  /*Ratio option*/
+  input[type=radio] {
+    border: 1px;
+    width: 1.3em;
+    height: 1.5em;
+  }
+
+  /*For the icon in fieldser*/
+  label {
+      display: inline-block;
+      width: 450px;
+    }
+
+  /*Fieldset*/
+  fieldset{
+      border-color: #e48787;
+      border-style: dotted;
+      color:rgb(83, 81, 81);
+      -webkit-flex: 1 1 300px;
+      flex: 1 1 300px; 
+      margin: 10px;
+      word-break: break-all;
+  }
